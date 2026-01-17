@@ -1,0 +1,48 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Python (Backend)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log*
+.npm/
+dist/
+dist-ssr/
+*.local
+
+# Local Artifacts
+.gemini/
