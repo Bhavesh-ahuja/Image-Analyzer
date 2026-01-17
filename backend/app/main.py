@@ -15,6 +15,10 @@ load_dotenv()
 
 app = FastAPI(title="AI Visual Analyzer")
 
+@app.get("/")
+async def root():
+    return {"message": "AI Visual Analyzer API is running", "docs": "/docs"}
+
 # Configure CORS
 origins = os.getenv("FRONTEND_URL", "*").split(",")
 
